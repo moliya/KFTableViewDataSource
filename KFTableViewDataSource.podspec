@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name          = "KFTableViewDataSource"
-  s.version       = "1.0.0"
+  s.version       = "1.0.1"
   s.summary       = "TableView数据源处理类"
   s.homepage      = "https://github.com/moliya/KFTableViewDataSource"
   s.license       = "MIT"

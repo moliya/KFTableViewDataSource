@@ -53,6 +53,7 @@
         return _dataSource;
     }
     
+    //配置数据源
     _dataSource = [[KFTableViewDataSource alloc] initWithItems:self.items cellConfiguration:^(id  _Nonnull item, NSIndexPath * _Nonnull indexPath, __kindof UITableViewCell * _Nonnull (^ _Nonnull reusableCell)(NSString * _Nonnull)) {
         //通过标识获取cell
         UITableViewCell *cell = reusableCell(@"main");
